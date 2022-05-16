@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasi Dijour</title>
+    <link href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--------HOME SECTION-------->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/sampleLogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""></a>HOME</li>
+                    <li><a href=""></a>MENU</li>
+                    <li><a href=""></a>ABOUT</li>
+                    <li><a href=""></a>CONTACT</li>
+                </ul>
+            </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>FAST FOOD RESTAURANT</h1>
+            <p>From Kotas to wings we got you wrapped up!!</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+
+
+        </div>
+    </section>
+    <!-------------END OF HOME SECTION---------------->
+
+    <!----------------------MENU SECTION------------------------>
+    <section class="menu">
+        <h1 id="intro">KASI DIJOUR MENU:</h1>
+        <div class="row">
+            <div class="menu-col">
+                <img src="Images/noahs ark.JPG">
+                <div class="layer">
+                    <h3>Noah's Ark <br><span class="price">R65</span>
+                    <ol>
+                        <li>Chips</li>
+                        <li>2x Beef patty</li>
+                        <li>2x Cheese</li>
+                        <li>Russian/Ham</li>
+                        <li>Bacon</li>
+                        <li>Sunnyside egg</li>
+                    </ol>
+                    </h3>
+                </div>
+        
+            </div>
+            <div class="row">
+                <div class="menu-col">
+                    <img src="Images/dagwood.JPG">
+                    <div class="layer">
+                        <h3>dagwood <br><span class="price">R35</span>
+                    <ol>
+                        <li>Beef Patty</li>
+                        <li>Cheese</li>
+                        <li>Ham</li>
+                        <li>Bacon</li>
+                        <li>Egg</li>
+                    </ol>
+                        </h3>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="menu-col">
+                        <img src="Images/the rock.JPG">
+                        <div class="layer">
+                            <h3>The rock <br><span class="price">R48</span>
+                                <ol>
+                                    <li>Beef Patty</li>
+                                    <li>Cheese</li>
+                                    <li>Ham</li>
+                                    <li>Chips</li>
+                                    <li>Achaar</li>
+                                </ol>
+                            </h3>
+                        </div>
+            </div>
+            <div class="row">
+                        <div class="menu-col">
+                            <img src="Images/vr6.JPG">
+                            <div class="layer">
+                                <h3>VR6 <br><span class="price">R22</span>
+                                    <ol>
+                                        <li>Russian</li>
+                                        <li>Vienna</li>
+                                        <li>Polony</li>
+                                        <li>Chips</li>
+                                        <li>Lettuce/Onions</li>
+                                    </ol>
+                                </h3>
+                            </div>
+            </div>
+            <div class="row">
+                            <div class="menu-col">
+                                <img src="Images/wraps.JPG">
+                                <div class="layer">
+                                    <h3>wraps <br><span class="price">R25</span>
+                                        <ol>
+                                            <li>Tomato</li>
+                                            <li>Cheese</li>
+                                            <li>Onion</li>
+                                            <li>Cucumber & Lettuce</li>
+                                            <li>Bacon or Chicken</li>
+                                        </ol>
+                                    </h3>
+                                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------------END OF MENU SECTION----------------------------->
+
+
+
+    <!----------------------ABOUT US SECTION -------------------->
+
+    <section class="about-us">
+        <h1 id="intro">Our Services</h1>
+        <div class="row">
+            <div class="about-col">
+                <img src="Images/Delivery.JPG" id="img">
+                <p class="para">We do Door-To-Door delivery for customers only in Klipfontein View.</p>
+            </div>
+        </div>
+
+        <div class="row" id="grid">
+                <div class="about-col">
+                    <img src="Images/selfie corner.jpeg" id="img">
+                    <p class="para">Our Selfie Corner is getting even more popular! join in the fun.</p>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+             navLinks.style.right = "0";
+}
+       function hideMenu(){
+             navLinks.style.right = "-200px";
+}
+    </script>
+
+</body>
+</html>
