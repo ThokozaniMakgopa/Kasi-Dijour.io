@@ -92,7 +92,7 @@ nav img{
 nav .fa{
     display: none;
 }
-@media(max-width:750px){
+@media(max-width:768px){
     .text-box h1{
         font-size: 30px;
         padding-top: 100px;
@@ -208,7 +208,7 @@ nav .fa{
     font-size: 14px;
     padding: 10px;
 }
-@media(max-width:700px){
+@media(max-width:768px){
     .row{
         flex-direction: column;
     }
