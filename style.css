@@ -92,7 +92,7 @@ nav img{
 nav .fa{
     display: none;
 }
-@media(max-width:768px){
+@media(max-width:991px){
     .text-box h1{
         font-size: 30px;
         padding-top: 100px;
@@ -210,12 +210,16 @@ nav .fa{
     font-size: 14px;
     padding: 10px;
 }
-@media(max-width:768px){
+@media(max-width:991px){
     .row{
         flex-direction: column;
     }
      img{
         margin-left: 40px;
+    }
+    .layer:hover{
+        background: rgba(91, 156, 95, 0.7);
+        padding-top: 300px;
     }
     
 
