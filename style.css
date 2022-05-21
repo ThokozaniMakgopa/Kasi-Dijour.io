@@ -220,6 +220,8 @@ nav .fa{
     .layer:hover{
         background: rgba(91, 156, 95, 0.7);
         padding-top: 300px;
+        width:100%;
+        padding-left: 40px;
     }
     
 
