@@ -127,15 +127,7 @@ nav .fa{
     }
 
 }
-@media(max-width:200px){
-    nav.fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-}
+
 
 /*---------------------MENU CSS------------------*/
 
